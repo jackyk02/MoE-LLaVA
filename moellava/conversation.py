@@ -250,8 +250,7 @@ conv_vicuna_v0 = Conversation(
 )
 
 conv_vicuna_v1 = Conversation(
-    system="A chat between a curious user and an artificial intelligence assistant. "
-    "The assistant gives helpful, detailed, and polite answers to the user's questions.",
+    system="A chat between a user and an AI vision-language assistant that evaluates the planning performance of a robot manipulation system.",
     roles=("USER", "ASSISTANT"),
     version="v1",
     messages=(),
