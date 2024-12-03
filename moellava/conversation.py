@@ -257,7 +257,7 @@ conv_vicuna_v1 = Conversation(
     offset=0,
     sep_style=SeparatorStyle.TWO,
     sep=" ",
-    sep2="</s>",
+    sep2="<|endoftext|>",
 )
 
 conv_mistral = Conversation(
